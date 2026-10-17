@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#1d232b" />
+    <link rel="icon" href="data:," />
+    <title>Draw the Play</title>
+    <script type="module" crossorigin src="./assets/drawplay-DT-Hex6M.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/draw-rink-B00c4w3p.js">
+    <link rel="modulepreload" crossorigin href="./assets/rng-ivgcIVC0.js">
+    <link rel="modulepreload" crossorigin href="./assets/puck-SLRCt50y.js">
+    <link rel="stylesheet" crossorigin href="./assets/rng-C9dYv7Yo.css">
+  </head>
+  <body>
+    <canvas id="field"></canvas>
+    <header id="top">
+      <button id="btn-levels" aria-label="Levels">&#9776;</button>
+      <div id="title"></div>
+      <div id="stars"></div>
+    </header>
+    <div id="timer"><div id="timer-fill"></div></div>
+    <div id="message"></div>
+    <div id="drag-label"></div>
+    <footer id="bottom"></footer>
+    <div id="levels">
+      <div class="panel">
+        <h1>Draw the Play</h1>
+        <p>Plan every move, then watch it play out. Score to unlock the next puzzle.</p>
+        <div id="levels-grid"></div>
+        <a class="home" href="./">&larr; All games</a>
+      </div>
+    </div>
+  </body>
+</html>

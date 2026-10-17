@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#1d232b" />
+    <link rel="icon" href="data:," />
+    <title>Hockey Trainer</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0; min-height: 100vh; background: #1d232b; color: #f2f5f8;
+        font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+        display: flex; flex-direction: column; align-items: center; padding: 32px 16px;
+      }
+      h1 { margin: 8px 0 4px; font-size: 32px; }
+      p.lead { margin: 0 0 24px; color: #9fb0c2; text-align: center; }
+      .games { display: grid; gap: 14px; width: min(560px, 100%); }
+      a.game {
+        display: block; padding: 18px 20px; border-radius: 16px; text-decoration: none; color: inherit;
+        background: rgba(255,255,255,0.08); border: 2px solid transparent;
+      }
+      a.game:hover, a.game:focus-visible { border-color: #2f7fe0; outline: none; }
+      a.game h2 { margin: 0 0 4px; font-size: 22px; }
+      a.game p { margin: 0; color: #c9d4df; line-height: 1.4; }
+      .tag {
+        display: inline-block; margin-top: 10px; padding: 3px 8px; border-radius: 6px;
+        font-size: 12px; background: rgba(0,0,0,0.35); color: #9fb0c2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hockey Trainer</h1>
+    <p class="lead">Mini games that make you a smarter hockey player.</p>
+    <div class="games">
+      <a class="game" href="whoswho.html">
+        <h2>Who's Who?</h2>
+        <p>Keep track of the players and remember their colours. In the fog levels you have to look around to see them.</p>
+        <span class="tag">Phone · tablet · computer</span>
+      </a>
+      <a class="game" href="drawplay.html">
+        <h2>Draw the Play</h2>
+        <p>Turn-based 2-on-1 puzzles. Draw where each player skates, passes and shoots, then watch it play out.</p>
+        <span class="tag">Phone · tablet · computer</span>
+      </a>
+      <a class="game" href="sandbox.html">
+        <h2>Free Skate</h2>
+        <p>Skate, stickhandle and shoot, NHL style.</p>
+        <span class="tag">Gamepad (keyboard and mouse also work)</span>
+      </a>
+    </div>
+  </body>
+</html>
