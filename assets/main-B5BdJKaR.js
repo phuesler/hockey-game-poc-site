@@ -1,1 +1,0 @@
-import{r}from"./pwa-wFWzi6AN.js";import{b as n,i}from"./version-CM-EsS0G.js";n();i();r(t=>{const e=document.getElementById("update");e.hidden=!1,e.querySelector("button").addEventListener("click",t)});
